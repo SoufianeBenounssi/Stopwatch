@@ -27,7 +27,7 @@ body{
     left: 43%;
     top: 16rem;
     font-family: 'Segoe UI', sans-serif;
-    transform: perspective(15em)  rotatex(5deg) scale(1);
+    transform: perspective(15em)  rotatex(5deg);
 }
 
 ul li {
@@ -327,7 +327,7 @@ h1 {
 @media screen and (max-width: 1920px) {
     #stop {
     position: relative;
-    left: -110%;
+    left: -85%;
     border: solid 2px var(--clr-1);
     box-shadow: inset 0 0 0.225em var(--clr-1),
                       0 0 0.225em var(--clr-1) ;
